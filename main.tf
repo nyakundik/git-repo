@@ -4,7 +4,3 @@ resource "aws_instance" "my-ec2" {
   
 }
 
-resource "aws_vpc" "my-aws_vpc" {
-    cidr_block = "10.0.0.1/16"
-  
-}
